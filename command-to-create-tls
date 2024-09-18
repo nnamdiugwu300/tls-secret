@@ -1,4 +1,4 @@
-kubectl create secret tls my-tls \
+kubectl create secret tls youthjeunesse-ca-tls \
   --cert=cert.crt \
   --key=youthjeunesse.ca.key \
   --namespace core-platform
