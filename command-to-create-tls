@@ -2,3 +2,8 @@ kubectl create secret tls youthjeunesse-ca-tls \
   --cert=cert.crt \
   --key=youthjeunesse.ca.key \
   --namespace test
+
+kubectl create secret tls youth-insight-ca-tls \
+  --cert=cert.crt \
+  --key=youth-insight.ca.key \
+  --namespace apm
