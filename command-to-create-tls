@@ -7,3 +7,8 @@ kubectl create secret tls youth-insight-ca-tls \
   --cert=cert.crt \
   --key=youth-insight.ca.key \
   --namespace apm
+
+kubectl create secret tls camh-ca-tls \
+  --cert=wc.camh.ca.crt \
+  --key=wc.camh.ca.key \
+  --namespace cnmdp-portal
