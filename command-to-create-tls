@@ -12,3 +12,8 @@ kubectl create secret tls camh-ca-tls \
   --cert=wc.camh.ca.crt \
   --key=wc.camh.ca.key \
   --namespace cnmdp-portal
+
+kubectl create secret tls cnmdp-ca-tls \
+  --cert=cert.crt \
+  --key=cnmdp.ca.key \
+  --namespace cnmdp-portal
